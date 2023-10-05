@@ -1,0 +1,60 @@
+<!doctype html><meta charset=utf-8><div id=app style=height:97vh></div><script src=./webamp.bundle.min.js></script><script src=./butterchurn.min.js></script><script src=./butterchurnPresets.min.js></script><script>const Webamp=window.Webamp;new Webamp({initialTracks:[
+  {
+    metaData:{title: "Å aloun"},
+    url: "http://listen.shoutcast.com/saloun"
+  },
+  {
+    metaData:{title: "All Noise Radio - Music"},
+    url: "http://66.85.154.211:9192"
+  },
+  {
+    "": ""},
+    metaData:{title: "Ddookbaegi Head"},
+    url: "http://listen.shoutcast.com/ddookbaegi-head"
+  },
+  {
+    metaData:{title: "H&F Radio"},
+    url: "http://listen.radionomy.com:80/H-FRadio"
+  },
+  {
+    metaData:{title: "Light in the Dark Radio"},
+    url: "http://listen.shoutcast.com/lightinthedarkradio"
+  },
+  {
+    metaData:{title: "Miami Rock Classics HD"},
+    url: "http://server.webnetradio.net:5374/stream"
+  },
+  {
+    metaData:{title: "Miami Rock Radio Classics"},
+    url: "http://server.webnetradio.net:5378/stream"
+  },
+  {
+    metaData:{title: "radio atellier"},
+    url: "http://listen.shoutcast.com/radioatellier"
+  },
+  {
+    metaData:{title: "RADIO SHE - South Florida Rock"},
+    url: "http://server.webnetradio.net server side binding address for clients:5016/stream"
+  },
+  {
+    metaData:{title: "Rock Radio"},
+    url: "http://server.webnetradio.net:5214/stream"
+  },
+  {
+    metaData:{title: "Showtime-Radio"},
+    url: "http://89.163.132.139:9024"
+  },
+  {
+    metaData:{title: "Sound Radio Winch"},
+    url: "http://listen.shoutcast.com/soundradiowinch"
+  },
+  {
+    metaData:{title: "SP2XF"},
+    url: "http://listen.shoutcast.com/sp2xf"
+  },
+  {
+    metaData:{title: "tobistv"},
+    url: "http://listen.shoutcast.com/tobistv"
+  }
+]
+,__butterchurnOptions:{importButterchurn:()=>Promise.resolve(window.butterchurn),getPresets:()=>{const e=window.butterchurnPresets.getPresets();return Object.keys(e).map(t=>({name:t,butterchurnPresetObject:e[t]}))},butterchurnOpen:!0},__initialWindowLayout:{main:{position:{x:0,y:0}},equalizer:{position:{x:0,y:116}},playlist:{position:{x:0,y:232},size:[0,4]},milkdrop:{position:{x:275,y:0},size:[7,12]}}}).renderWhenReady(document.getElementById("app"))</script>
